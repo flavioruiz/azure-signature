@@ -1,4 +1,3 @@
-require 'addressable'
 require 'openssl'
 require 'base64'
 require 'time'
