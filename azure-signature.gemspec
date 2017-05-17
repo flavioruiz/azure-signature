@@ -12,8 +12,7 @@ Gem::Specification.new do |gem|
   gem.files     = Dir['**/*'].reject{ |f| f.include?('git') }
 
   gem.extra_rdoc_files = ['README', 'CHANGES', 'MANIFEST']
-   
-  gem.add_dependency('addressable')
+
   gem.add_development_dependency('test-unit')
 
   gem.description = <<-EOF
